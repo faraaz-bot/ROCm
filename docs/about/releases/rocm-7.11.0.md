@@ -11,25 +11,7 @@ myst:
 **Branch Date**: January 21, 2026  
 **AMDGPU Driver**: 31.10.x
 
-## Overview
-
-ROCm 7.11.0 is a preview release as part of the transition to the new build system "The Rock", culminating with ROCm 8.0.
-
-## Key Information
-
-- **Branch Date Adjustment**: The branch date was delayed for holidays until the first working week in the new year
-- **API Compatibility**: This release provides a packaging level break without breaking the API
-- **Build System**: Part of the preview releases transitioning to "The Rock" build system
-
-## Release Resources
-
-- [Release Notes](../release-notes.md)
-- [Compatibility Matrix](../../compatibility/compatibility-matrix.rst)
-- [Installation Guide](https://rocm.docs.amd.com/projects/install-on-linux/en/latest/)
-
 ## Community Discussion
-
-Share your feedback, ask questions, and discuss this release with the community below.
 
 ```{raw} html
 <script src="https://giscus.app/client.js"

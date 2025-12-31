@@ -5,37 +5,13 @@ myst:
     "keywords": "ROCm, 8.2.0, release, announcement"
 ---
 
-# ROCm 8.2.0 Release (RO W23)
+# ROCm 8.2.0 Release
 
 **Release Date**: June 4, 2026 (2026W23)  
 **Branch Date**: May 14, 2026 (2026W20)  
 **AMDGPU Driver**: 31.20.x
 
-## Overview
-
-ROCm 8.2.0 marks the establishment of the firm 6-week release cadence for the ROCm platform.
-
-## Key Information
-
-### Release Cadence Milestone
-- **6-week release cadence firmly established** by this release
-- Demonstrates ROCm's commitment to regular, predictable releases
-- Provides stability and planning certainty for users and developers
-
-### Technical Details
-- Continues with AMDGPU driver 31.20.x series
-- Full production stability on the new build system
-- Regular feature updates and improvements
-
-## Release Resources
-
-- [Release Notes](../release-notes.md)
-- [Compatibility Matrix](../../compatibility/compatibility-matrix.rst)
-- [Installation Guide](https://rocm.docs.amd.com/projects/install-on-linux/en/latest/)
-
 ## Community Discussion
-
-Share your feedback, ask questions, and discuss this release with the community below.
 
 ```{raw} html
 <script src="https://giscus.app/client.js"

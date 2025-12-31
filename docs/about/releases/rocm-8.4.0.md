@@ -5,30 +5,12 @@ myst:
     "keywords": "ROCm, 8.4.0, release, announcement"
 ---
 
-# ROCm 8.4.0 Release (RO W38)
+# ROCm 8.4.0 Release
 
 **Release Date**: September 16, 2026 (2026W38)  
 **Branch Date**: August 26, 2026 (2026W35)
 
-## Overview
-
-ROCm 8.4.0 continues the regular 6-week release cadence with ongoing platform improvements and optimizations.
-
-## Key Information
-
-- Part of the established 6-week release cycle
-- Continued enhancements to the ROCm platform
-- Regular updates and bug fixes
-
-## Release Resources
-
-- [Release Notes](../release-notes.md)
-- [Compatibility Matrix](../../compatibility/compatibility-matrix.rst)
-- [Installation Guide](https://rocm.docs.amd.com/projects/install-on-linux/en/latest/)
-
 ## Community Discussion
-
-Share your feedback, ask questions, and discuss this release with the community below.
 
 ```{raw} html
 <script src="https://giscus.app/client.js"
