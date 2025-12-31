@@ -11,6 +11,21 @@ subtrees:
     title: Release notes
   - file: about/release-announcements.md
     title: Release announcements
+    entries:
+    - file: about/releases/rocm-7.11.0.md
+      title: ROCm 7.11.0
+    - file: about/releases/rocm-8.0.0.md
+      title: ROCm 8.0.0
+    - file: about/releases/rocm-8.1.0.md
+      title: ROCm 8.1.0
+    - file: about/releases/rocm-8.2.0.md
+      title: ROCm 8.2.0
+    - file: about/releases/rocm-8.3.0.md
+      title: ROCm 8.3.0
+    - file: about/releases/rocm-8.4.0.md
+      title: ROCm 8.4.0
+    - file: about/releases/rocm-8.5.0.md
+      title: ROCm 8.5.0
   - file: compatibility/compatibility-matrix.rst
     title: Compatibility matrix
     entries:

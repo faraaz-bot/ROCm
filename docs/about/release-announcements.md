@@ -41,6 +41,18 @@ This deviates from the pure semantic version numbering scheme.
 The proposed release schedule is based on a six-week cadence for ROCm X.Y major and minor releases. ROCm X.Y.Z, where Z represents the patch release, does not adhere to this schedule. Additionally, the six-week cadence is relaxed around holidays, particularly from December to January.
 ```
 
+## 2026 Releases
+
+Browse individual release announcements to learn about specific features, improvements, and participate in discussions:
+
+- [ROCm 7.11.0 (February 11, 2026)](releases/rocm-7.11.0.md) - Preview release with holiday-adjusted schedule
+- [ROCm 8.0.0 (March 18, 2026)](releases/rocm-8.0.0.md) - First production release with "The Rock" build system
+- [ROCm 8.1.0 (April 20, 2026)](releases/rocm-8.1.0.md) - Ubuntu 26.04 Day 0 support
+- [ROCm 8.2.0 (June 4, 2026)](releases/rocm-8.2.0.md) - 6-week cadence established
+- [ROCm 8.3.0 (August 5, 2026)](releases/rocm-8.3.0.md) - Post-summer release
+- [ROCm 8.4.0 (September 16, 2026)](releases/rocm-8.4.0.md) - Fall release
+- [ROCm 8.5.0 (October 28, 2026)](releases/rocm-8.5.0.md) - Pre-holiday release
+
 ## Community Discussions
 
 Join the conversation below to discuss ROCm releases, share your experiences, and connect with other ROCm users and developers.
