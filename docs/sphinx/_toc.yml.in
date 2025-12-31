@@ -9,6 +9,8 @@ subtrees:
   - file: what-is-rocm.rst
   - file: about/release-notes.md
     title: Release notes
+  - file: about/release-announcements.md
+    title: Release announcements
   - file: compatibility/compatibility-matrix.rst
     title: Compatibility matrix
     entries:
