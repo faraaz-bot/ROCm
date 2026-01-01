@@ -9,50 +9,6 @@ myst:
 
 This category is for announcements about ROCm releases. Stay up to date with the latest ROCm releases, discuss new features, and provide feedback to the development team.
 
-## 2026 Release Schedule
-
-### Transitioning to the New Build System "The Rock"
-
-These are preview releases culminating with **ROCm 8.0**. ROCm 7.9 and above releases provide a packaging level break without breaking the API. 7.10 and above may include API breaks to prepare for ROCm 8.0.
-
-```{note}
-This deviates from the pure semantic version numbering scheme.
-```
-
-**Updated:** Dec 17, 2025 to take into account Thanksgiving Week. Product Management will refrain from scheduling work during a 1 week US Thanksgiving week, 2 weeks of the Winter holidays, and 1st week July. No other deviation from 6 week cycle is planned.
-
-### Release Schedule Table
-
-| Release Opportunity (RO) | Branch Date | Release Date | Milestones | AMDGPU Range | Comments |
-|--------------------------|-------------|--------------|------------|--------------|----------|
-| **7.11.0** | Jan 21, 2026 | Feb 11, 2026 | | 31.10.x | Branch date delayed for holidays until first working week in the new year |
-| **8.0.0** (or 7.12) | Feb 26, 2026 (2026W9) | Mar 18, 2026 (2026W16) | First ROCm Release Recommended for Production based on New Build System. All packages are in either ROCm core, ROCm expansion packs (market verticals), or under a misc pack (standalone projects) | 31.10.x | Offline runfile installer |
-| **RO W17** | Apr 2, 2026 (2026W14) | Apr 20, 2026 (2026W17) | Ubuntu 26.04 Day 0 (release package built with 8.1.0) | 31.20.x | Deviation from 6 week cycle, reduction of 1 week to align with Ubuntu 26.04 |
-| **RO W23** | May 14, 2026 (2026W20) | Jun 4, 2026 (2026W23) | | 31.20.x | 6 week release cadence to be firmly established by this time |
-| *Fourth of July Break* | 2026W27 | 2026W27 | | | |
-| **RO W32** | July 15, 2026 (2026W29) | Aug 5, 2026 (2026W32) | | | |
-| **RO W38** | Aug 26, 2026 (2026W35) | Sep 16, 2026 (2026W38) | | | |
-| **RO W44** | Oct 7, 2026 (2026W41) | Oct 28, 2026 (2026W44) | | | |
-| *Thanksgiving Break* | 2026W48 | 2026W48 | | | |
-| **RO W2** | Nov 18, 2026 (2026W47) | Dec 16, 2026 (2026W51) | | | 5-week release window |
-| *Winter Holiday Break* | 2026W51-W52 | 2026W51-W52 | | | |
-
-```{important}
-The proposed release schedule is based on a six-week cadence for ROCm X.Y major and minor releases. ROCm X.Y.Z, where Z represents the patch release, does not adhere to this schedule. Additionally, the six-week cadence is relaxed around holidays, particularly from December to January.
-```
-
-## 2026 Releases
-
-Browse individual release announcements to learn about specific features, improvements, and participate in discussions:
-
-- [ROCm 7.11.0 (February 11, 2026)](releases/rocm-7.11.0.md) - Preview release with holiday-adjusted schedule
-- [ROCm 8.0.0 (March 18, 2026)](releases/rocm-8.0.0.md) - First production release with "The Rock" build system
-- [ROCm 8.1.0 (April 20, 2026)](releases/rocm-8.1.0.md) - Ubuntu 26.04 Day 0 support
-- [ROCm 8.2.0 (June 4, 2026)](releases/rocm-8.2.0.md) - 6-week cadence established
-- [ROCm 8.3.0 (August 5, 2026)](releases/rocm-8.3.0.md) - Post-summer release
-- [ROCm 8.4.0 (September 16, 2026)](releases/rocm-8.4.0.md) - Fall release
-- [ROCm 8.5.0 (October 28, 2026)](releases/rocm-8.5.0.md) - Pre-holiday release
-
 ## Community Discussions
 
 Join the conversation below to discuss ROCm releases, share your experiences, and connect with other ROCm users and developers.
