@@ -9,17 +9,19 @@ document.addEventListener('DOMContentLoaded', function() {
     const GITHUB_REPO = 'faraaz-bot/ROCm';
     const GITHUB_API_BASE = 'https://api.github.com';
     
-    // Get milestone name from page title or data attribute
-    const milestoneContainer = document.getElementById('github-milestone-tracker');
-    if (!milestoneContainer) return;
+    // Find all milestone tracker containers on the page
+    const milestoneContainers = document.querySelectorAll('[id^="github-milestone-tracker"]');
+    if (milestoneContainers.length === 0) return;
     
-    const milestoneName = milestoneContainer.dataset.milestone;
-    if (!milestoneName) return;
+    // Fetch data for each milestone tracker
+    milestoneContainers.forEach(container => {
+        const milestoneName = container.dataset.milestone;
+        if (milestoneName) {
+            fetchMilestoneData(milestoneName, container);
+        }
+    });
     
-    // Fetch milestone data
-    fetchMilestoneData(milestoneName);
-    
-    async function fetchMilestoneData(milestoneName) {
+    async function fetchMilestoneData(milestoneName, milestoneContainer) {
         try {
             // Show loading state
             milestoneContainer.innerHTML = '<div class="milestone-loading">Loading milestone data...</div>';
@@ -57,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const issues = await issuesResponse.json();
             
             // Render milestone and issues
-            renderMilestone(milestone, issues);
+            renderMilestone(milestone, issues, milestoneContainer);
             
         } catch (error) {
             console.error('Error fetching GitHub data:', error);
@@ -69,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
-    function renderMilestone(milestone, issues) {
+    function renderMilestone(milestone, issues, milestoneContainer) {
         const openIssues = issues.filter(i => i.state === 'open' && !i.pull_request);
         const closedIssues = issues.filter(i => i.state === 'closed' && !i.pull_request);
         const totalIssues = openIssues.length + closedIssues.length;

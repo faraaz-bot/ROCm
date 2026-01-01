@@ -9,6 +9,69 @@ myst:
 
 This category is for announcements about ROCm releases. Stay up to date with the latest ROCm releases, discuss new features, and provide feedback to the development team.
 
+## [ROCm 7.11.0](releases/rocm-7.11.0.md)
+**Release Date**: February 11, 2026
+
+```{raw} html
+<div id="github-milestone-tracker-7110" data-milestone="ROCm 7.11.0"></div>
+```
+
+---
+
+## [ROCm 8.0.0](releases/rocm-8.0.0.md)
+**Release Date**: March 18, 2026
+
+```{raw} html
+<div id="github-milestone-tracker-800" data-milestone="ROCm 8.0.0"></div>
+```
+
+---
+
+## [ROCm 8.1.0](releases/rocm-8.1.0.md)
+**Release Date**: April 20, 2026
+
+```{raw} html
+<div id="github-milestone-tracker-810" data-milestone="ROCm 8.1.0"></div>
+```
+
+---
+
+## [ROCm 8.2.0](releases/rocm-8.2.0.md)
+**Release Date**: June 4, 2026
+
+```{raw} html
+<div id="github-milestone-tracker-820" data-milestone="ROCm 8.2.0"></div>
+```
+
+---
+
+## [ROCm 8.3.0](releases/rocm-8.3.0.md)
+**Release Date**: August 5, 2026
+
+```{raw} html
+<div id="github-milestone-tracker-830" data-milestone="ROCm 8.3.0"></div>
+```
+
+---
+
+## [ROCm 8.4.0](releases/rocm-8.4.0.md)
+**Release Date**: September 16, 2026
+
+```{raw} html
+<div id="github-milestone-tracker-840" data-milestone="ROCm 8.4.0"></div>
+```
+
+---
+
+## [ROCm 8.5.0](releases/rocm-8.5.0.md)
+**Release Date**: October 28, 2026
+
+```{raw} html
+<div id="github-milestone-tracker-850" data-milestone="ROCm 8.5.0"></div>
+```
+
+---
+
 ## Community Discussions
 
 Join the conversation below to discuss ROCm releases, share your experiences, and connect with other ROCm users and developers.
