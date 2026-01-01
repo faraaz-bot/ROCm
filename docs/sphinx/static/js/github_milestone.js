@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="milestone-header">
                     <h3>
                         <a href="${milestone.html_url}" target="_blank" rel="noopener noreferrer">
-                            📋 ${milestone.title}
+                            ${milestone.title}
                         </a>
                     </h3>
                     ${milestone.description ? `<p class="milestone-description">${milestone.description}</p>` : ''}
