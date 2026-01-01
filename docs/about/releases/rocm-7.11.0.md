@@ -11,6 +11,12 @@ myst:
 **Branch Date**: January 21, 2026  
 **AMDGPU Driver**: 31.10.x
 
+## Release Tracking
+
+```{raw} html
+<div id="github-milestone-tracker" data-milestone="ROCm 7.11.0"></div>
+```
+
 ## Community Discussion
 
 ```{raw} html

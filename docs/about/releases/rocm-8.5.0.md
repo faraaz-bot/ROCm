@@ -10,6 +10,12 @@ myst:
 **Release Date**: October 28, 2026 (2026W44)  
 **Branch Date**: October 7, 2026 (2026W41)
 
+## Release Tracking
+
+```{raw} html
+<div id="github-milestone-tracker" data-milestone="ROCm 8.5.0"></div>
+```
+
 ## Community Discussion
 
 ```{raw} html

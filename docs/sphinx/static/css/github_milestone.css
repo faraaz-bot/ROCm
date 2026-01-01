@@ -1,0 +1,215 @@
+/**
+ * GitHub Milestone Tracker Styles
+ * Modern, clean styling for milestone and issue display
+ */
+
+.github-milestone-tracker {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: var(--pst-color-background);
+    border: 1px solid var(--pst-color-border);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.milestone-header h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+}
+
+.milestone-header h3 a {
+    color: var(--pst-color-primary);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.milestone-header h3 a:hover {
+    text-decoration: underline;
+}
+
+.milestone-description {
+    color: var(--pst-color-text-muted);
+    margin: 0.5rem 0 1rem 0;
+    font-size: 0.95rem;
+}
+
+/* Progress Bar */
+.milestone-progress {
+    margin: 1.5rem 0;
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 8px;
+    background: var(--pst-color-surface);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 0.75rem;
+}
+
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #28a745 0%, #34d058 100%);
+    transition: width 0.3s ease;
+    border-radius: 4px;
+}
+
+.progress-stats {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.9rem;
+    color: var(--pst-color-text-muted);
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.stat-value {
+    font-weight: 600;
+    color: var(--pst-color-text-base);
+}
+
+/* Issues List */
+.milestone-issues {
+    margin-top: 1.5rem;
+}
+
+.milestone-issues h4 {
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    color: var(--pst-color-text-base);
+}
+
+.issue-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+}
+
+.issue-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    background: var(--pst-color-surface);
+    border-radius: 6px;
+    border-left: 3px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.issue-item:hover {
+    background: var(--pst-color-on-background);
+    transform: translateX(2px);
+}
+
+.issue-item.open {
+    border-left-color: #28a745;
+}
+
+.issue-item.closed {
+    border-left-color: #6f42c1;
+}
+
+.issue-state {
+    font-size: 1rem;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.issue-title {
+    flex: 1;
+    color: var(--pst-color-text-base);
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.issue-title:hover {
+    color: var(--pst-color-primary);
+    text-decoration: underline;
+}
+
+.issue-labels {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 0.25rem;
+}
+
+.issue-label {
+    padding: 0.15rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.view-all-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--pst-color-primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.view-all-link:hover {
+    background: var(--pst-color-primary-highlight);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.milestone-due-date {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--pst-color-border);
+    font-size: 0.9rem;
+    color: var(--pst-color-text-muted);
+}
+
+/* Loading and Error States */
+.milestone-loading,
+.milestone-error,
+.milestone-not-found {
+    padding: 2rem;
+    text-align: center;
+    color: var(--pst-color-text-muted);
+}
+
+.milestone-loading {
+    font-style: italic;
+}
+
+.milestone-error,
+.milestone-not-found {
+    background: var(--pst-color-warning-bg);
+    border-radius: 6px;
+}
+
+.milestone-error a,
+.milestone-not-found a {
+    color: var(--pst-color-primary);
+    font-weight: 500;
+}
+
+/* Dark mode adjustments */
+html[data-theme="dark"] .github-milestone-tracker {
+    background: var(--pst-color-surface);
+}
+
+html[data-theme="dark"] .issue-item {
+    background: var(--pst-color-background);
+}
+
+html[data-theme="dark"] .issue-item:hover {
+    background: var(--pst-color-on-surface);
+}
